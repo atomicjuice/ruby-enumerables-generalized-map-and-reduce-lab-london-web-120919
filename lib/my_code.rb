@@ -18,7 +18,7 @@ def reduce(array, sv = nil)
     i = 1
   end
   while i < array.length
-  puts  sum = yield(sum, array[i], 0.6)
+  puts  sum = yield(sum, array[i], true)
     i += 1
   end
   sum
